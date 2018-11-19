@@ -1,0 +1,6 @@
+lauguage: python
+python:
+    - "3.4"
+install: "pip install -r requirement.txt"
+script:
+- SECRET_KEY="something" ./manage.py test
