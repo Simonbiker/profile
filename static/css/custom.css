@@ -1,0 +1,14 @@
+body{
+    font-family: 'Cerulean';
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    #masthead h1 {
+        font-size: 80px;
+    }
+}
