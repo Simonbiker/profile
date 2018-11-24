@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.conf.urls import url, include
 from django.views.generic import RedirectView
 from profile.views import home
+from django.views import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
